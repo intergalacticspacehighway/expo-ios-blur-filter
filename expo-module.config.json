@@ -8,10 +8,5 @@
     "modules": [
       "ExpoIosBlurFilterModule"
     ]
-  },
-  "android": {
-    "modules": [
-      "expo.modules.iosblurfilter.ExpoIosBlurFilterModule"
-    ]
   }
 }
