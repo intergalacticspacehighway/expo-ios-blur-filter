@@ -42,33 +42,6 @@ import { BlurFilter } from 'expo-ios-blur-filter';
 | `amount` | `number` | The blur radius in points. Higher values create a stronger blur effect. |
 | `style` | `ViewStyle` | Standard React Native view style props. |
 
-## Example
-
-```tsx
-import { BlurFilter } from "expo-ios-blur-filter";
-import { SafeAreaView, View, Image } from "react-native";
-
-export default function App() {
-  return (
-    <SafeAreaView style={{ flex: 1, backgroundColor: "#eee" }}>
-      <View style={{ flex: 1, flexDirection: "row", gap: 10 }}>
-        <BlurFilter amount={5} style={{ flex: 1 }}>
-          <Image
-            source={{
-              uri: "https://example.com/image.jpg"
-            }}
-            style={{ width: 200, height: 200 }}
-          />
-        </BlurFilter>
-        <BlurFilter amount={8} style={{ flex: 1 }}>
-          <View style={{ width: 120, height: 120, backgroundColor: "purple" }} />
-        </BlurFilter>
-      </View>
-    </SafeAreaView>
-  );
-}
-```
-
 ## License
 
 MIT
