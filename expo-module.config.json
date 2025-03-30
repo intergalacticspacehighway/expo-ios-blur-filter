@@ -1,0 +1,17 @@
+{
+  "platforms": [
+    "apple",
+    "android",
+    "web"
+  ],
+  "apple": {
+    "modules": [
+      "ExpoIosBlurFilterModule"
+    ]
+  },
+  "android": {
+    "modules": [
+      "expo.modules.iosblurfilter.ExpoIosBlurFilterModule"
+    ]
+  }
+}

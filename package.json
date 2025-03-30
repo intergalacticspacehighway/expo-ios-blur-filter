@@ -1,0 +1,43 @@
+{
+  "name": "expo-ios-blur-filter",
+  "version": "0.1.0",
+  "description": "Blur filter for ios",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "scripts": {
+    "build": "expo-module build",
+    "clean": "expo-module clean",
+    "lint": "expo-module lint",
+    "test": "expo-module test",
+    "prepare": "expo-module prepare",
+    "prepublishOnly": "expo-module prepublishOnly",
+    "expo-module": "expo-module",
+    "open:ios": "xed example/ios",
+    "open:android": "open -a \"Android Studio\" example/android"
+  },
+  "keywords": [
+    "react-native",
+    "expo",
+    "expo-ios-blur-filter",
+    "ExpoIosBlurFilter"
+  ],
+  "repository": "https://github.com/intergalacticspacehighway/expo-ios-blur-filter.git",
+  "bugs": {
+    "url": "https://github.com/intergalacticspacehighway/expo-ios-blur-filter.git/issues"
+  },
+  "author": "nishan (o^▽^o) <nishanbende@gmail.com> (intergalacticspacehighway)",
+  "license": "MIT",
+  "homepage": "https://github.com/intergalacticspacehighway/expo-ios-blur-filter.git#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/react": "~18.3.12",
+    "expo-module-scripts": "^4.0.3",
+    "expo": "~52.0.0",
+    "react-native": "0.76.0"
+  },
+  "peerDependencies": {
+    "expo": "*",
+    "react": "*",
+    "react-native": "*"
+  }
+}
