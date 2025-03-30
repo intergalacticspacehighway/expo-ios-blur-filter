@@ -42,12 +42,6 @@ import { BlurFilter } from 'expo-ios-blur-filter';
 | `amount` | `number` | The blur radius in points. Higher values create a stronger blur effect. |
 | `style` | `ViewStyle` | Standard React Native view style props. |
 
-## Notes
-
-- This component only works on iOS as it uses Core Animation filters
-- The blur effect is applied to the first child view
-- Works with any React Native view, including Images
-
 ## Example
 
 ```tsx
